@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Roboto';
+  background-image: url(Table.jpg);
+  background-size: cover;
+  color:white;
+  background-repeat: no-repeat;
+}
+
+img{
+  width: 100%;
+}
+
+h1{
+  font-size: 80px;
+  color:goldenrod;
+  border-bottom: 2px solid goldenrod;
+  width:600px;
+  margin:80px auto;
+  padding-bottom: 15px;
+}
+
+p{
+  font-size:50px;
+}
+
+button{
+  display: block;
+  margin: 30px auto;
+  background-color: goldenrod;
+  font-weight: 900;
+  border:unset;
+  padding:7px 20px;
+  color:#016f3f;
+  cursor:pointer;
+  font-size:20px;
+}
+
+button:hover{
+  background-color: #016f31;
+  color:goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+  font-weight: 900;
+}
